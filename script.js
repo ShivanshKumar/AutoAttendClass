@@ -18,6 +18,6 @@ console.log(v);
 let fun = ()=>{
 a[v.sub].click();}
 let eta_ms = ()=> new Date(2020, 6, UTCdate, v.timehr, v.timemin).getTime() - Date.now();
-if(eta_ms>0)setTimeout(fun,eta_ms());
+if(eta_ms()>0)setTimeout(fun,eta_ms());
 })
 
