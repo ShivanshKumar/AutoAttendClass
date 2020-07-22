@@ -7,17 +7,17 @@ let schedule = [
 ]
 let d = new Date();
 let day = d.getDay();
-let UTCdate = d.getUTCDate();
+let date = d.getDate();
 let a =document.querySelectorAll(`a`)
 let today = schedule[day-1]
 
-console.log(a,day,UTCdate,today,schedule)
+console.log(a,day,date,today,schedule)
 
 today.forEach((v)=>{
 console.log(v);
 let fun = ()=>{
 a[v.sub].click();}
-let eta_ms = ()=> new Date(2020, 6, UTCdate, v.timehr, v.timemin).getTime() - Date.now();
+let eta_ms = ()=> new Date(2020, 6, date, v.timehr, v.timemin).getTime() - Date.now();
 if(eta_ms()>0)setTimeout(fun,eta_ms());
 })
 
