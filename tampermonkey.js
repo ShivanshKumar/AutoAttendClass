@@ -5,7 +5,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://meet.google.com/rwy-cafc-zus
-// @match        http://meet.google.com/yaf-untz-smm
+// @match        https://meet.google.com/yaf-untz-smm
 // @match        https://meet.google.com/jnr-zmjz-uko
 // @match        https://meet.google.com/duz-vzzh-rso
 // @match        https://meet.google.com/edt-kaag-azn
