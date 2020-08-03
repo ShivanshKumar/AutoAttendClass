@@ -9,6 +9,7 @@ let schedule = [
 let d = new Date();
 let day = d.getDay();
 let date = d.getDate();
+let month = d.getMonth();
 let a =document.querySelectorAll(`a`)
 let today = schedule[day-1]
 
@@ -19,7 +20,7 @@ console.log(v);
 let fun = ()=>{
 console.log(v.sub);	
 a[v.sub].click();}
-let eta_ms = ()=> new Date(2020, 6, date, v.timehr, v.timemin).getTime() - Date.now();
+let eta_ms = ()=> new Date(2020, month, date, v.timehr, v.timemin).getTime() - Date.now();
 console.log(eta_ms());
 if(eta_ms()>0)setTimeout(fun,eta_ms());	
 })
