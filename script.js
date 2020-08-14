@@ -1,9 +1,9 @@
 let schedule = [
-[{sub: 0, timehr: 8 ,timemin: 0},{sub: 1, timehr: 9 ,timemin: 0},{sub: 2, timehr: 10 ,timemin:15},{sub: 3, timehr: 11 ,timemin: 15}],
-[{sub: 4, timehr: 8 ,timemin: 0},{sub: 6, timehr: 10 ,timemin: 15},{sub: 0, timehr: 11 ,timemin: 15}],
-[{sub: 1, timehr: 8 ,timemin: 0},{sub: 2, timehr: 9 ,timemin: 0},{sub: 4, timehr: 11 ,timemin: 15}],
-[{sub: 6, timehr: 9 ,timemin: 0},{sub: 0, timehr: 10 ,timemin:15},{sub: 1, timehr: 11 ,timemin: 15}],
-[{sub: 2, timehr: 8 ,timemin: 0},{sub: 4, timehr: 10 ,timemin:15}]
+[{sub: 0, timehr: 7 ,timemin: 55},{sub: 1, timehr: 8 ,timemin: 55},{sub: 2, timehr: 10 ,timemin:10},{sub: 3, timehr: 11 ,timemin: 10}],
+[{sub: 4, timehr: 7 ,timemin: 55},{sub: 6, timehr: 10 ,timemin: 10},{sub: 0, timehr: 11 ,timemin: 10}],
+[{sub: 1, timehr: 7 ,timemin: 55},{sub: 2, timehr: 8 ,timemin: 55},{sub: 4, timehr: 11 ,timemin: 10}],
+[{sub: 1, timehr: 7 ,timemin: 55},{sub: 6, timehr: 8 ,timemin: 55},{sub: 0, timehr: 10 ,timemin:10},{sub: 1, timehr: 11 ,timemin: 10}],
+[{sub: 2, timehr: 7 ,timemin: 55},{sub: 4, timehr: 10 ,timemin:10}]
 ]
 
 let d = new Date();
